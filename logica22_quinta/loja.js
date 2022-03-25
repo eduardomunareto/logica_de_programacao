@@ -1,10 +1,10 @@
-const prompt = require("prompt-sync")()
+const prompt = require("prompt-sync")();
 
-const modelo = prompt("Modelo do Veículo: ")
-const preco = Number(prompt("Preço do Veículo: "))
+const modelo = prompt("Modelo do Veículo: ");
+const preco = Number(prompt("Preço do Veículo: "));
 
-const entrada = preco * 0.50
-const parcela = entrada / 12
+const entrada = preco * 0.50;
+const parcela = entrada / 12;
 
 
 console.log("Entrada R$: " + padraoMoeda(entrada));
